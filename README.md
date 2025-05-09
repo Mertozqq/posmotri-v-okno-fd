@@ -1,1 +1,1 @@
-https://github.com/Mertozqq/ono-tebe-nado-fd
+https://github.com/Mertozqq/posmotri-v-okno-fd
