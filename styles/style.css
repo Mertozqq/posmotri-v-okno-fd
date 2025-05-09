@@ -139,6 +139,7 @@ ol {
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  column-gap: 0px;
 }
 
 /* Картинка в карточке: фиксированные размеры, покрытие, центрирование */
@@ -180,10 +181,6 @@ ol {
 .content__card-link {
   color: #fff;
   text-decoration: none;
-}
-
-.content__video-card {
-  column-gap: 0px;
 }
 
 .content__video-card-title {
