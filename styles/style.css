@@ -75,7 +75,6 @@ ol {
 }
 
 
-/* Левый блок: видео и форма */
 .result {
   grid-area: result;
   display: flex;
@@ -84,7 +83,7 @@ ol {
   gap: 20px;
 }
 
-/* Правый блок: заголовок и карточки */
+
 .content__details {
   grid-area: details;
   display: flex;
@@ -95,17 +94,14 @@ ol {
   
 }
 
-/* Отступ между заголовком и карточками */
 
-
-/* Контейнер списка с прокруткой */
 .content__list-container {
   flex-grow: 1;
   overflow-y: auto;
   max-block-size: 298px;
 }
 
-/* Форма поиска — флекс */
+
 .search-form {
   display: flex;
   justify-content: space-between;
@@ -131,10 +127,10 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px; /* можно увеличить/уменьшить */
+  gap: 30px; 
 }
 
-/* Карточка: элементы в строку, выравнивание по началу */
+
 .content__video-card {
   display: flex;
   align-items: flex-start;
@@ -142,9 +138,9 @@ ol {
   column-gap: 0px;
 }
 
-/* Картинка в карточке: фиксированные размеры, покрытие, центрирование */
+
 .content__video-card-thumbnail {
-  width: 160px;
+  width: 194px;
   height: 100px;
   object-fit: cover;
   object-position: center;
@@ -203,10 +199,6 @@ ol {
   text-overflow: ellipsis;
 }
 
-.content__video-card-thumbnail {
-  width: 194px;
-}
-
 .search-form__fieldset {
   border: 0;
 }
@@ -232,7 +224,7 @@ ol {
 }
 
 
-.search-form__label:has(:focus-visible)
+.search-form__label:has(:focus-visible),
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
 }
@@ -305,7 +297,7 @@ ol {
 }
 
 .button:focus {
-  all: none;
+  outline: none;
 }
 
 .button:hover {
